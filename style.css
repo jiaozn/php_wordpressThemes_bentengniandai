@@ -1,0 +1,467 @@
+/* 
+Theme Name: 奔腾年代Seabiscuit
+Theme URI: http://www.dengnihuilai.com
+Description: 奔腾年代，为自己博客做的wordpress主题，为移动终端做了单独的css
+Version: 1.0
+Author: jiao
+Author URI: http://www.dengnihuilai.com
+Tags: 响应式,简约,红色,博客
+*/ 
+ *{padding:0;
+margin:0;
+text-decoration:none;
+list-style:none;
+font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+font-weight:normal;
+font-size:14px;
+color:#000;
+}  
+body{
+	/* background-color:#EFF3F6; */
+
+	background-color:#e3dad3;
+}
+/*  div{
+	border:2px solid #ff0000;
+}   */
+#navico{
+	display:none;
+}
+#page{
+	/* background-color:#659c96;  */
+	/* background-color:#025f41;  */
+	  /* background-color:#EFF3F6;   */
+	  position:absolute;
+	  top:-28px;
+	    background-color:#e3dad3; 
+	  /* background-color:#bb8f8b;  */
+	 /* background-color:#8e8f8a;  */
+	 /* background-color:#bbbfc3;  */
+}
+#header{
+	text-align:center;
+	background-color:#F51D34;
+}
+#header h1,p{
+	display:inline-block;
+}
+#webt{
+	font-style:italic;
+	font-variant:;
+	font-weight:bold;
+	font-size:47px;
+	line-height:;
+	color:#EFF3F6;
+	display:inline-block;
+	padding:25px 0 25px 0;
+	word-spacing:4px;
+	letter-spacing:4px;
+}
+#webt:hover{
+	word-spacing:12px;
+	letter-spacing:12px;
+	color:#fff;
+}
+#webd{
+	font-style:;
+	font-variant:;
+	font-weight:;
+	font-size:20px;
+	line-height:;
+	color:#EFF3F6;
+}
+#nav{
+
+	/* background-color:#797d7b; */
+	 /* background-color:#1b1f18;  */
+	  /* background-color:#a3726d;  */
+	    /* background-color:#eff3f6;   */
+	     /* background-color:#c2101c;   */
+		 background-color:#915232; 
+		position:relative;
+ }
+#navu{
+	width:100%;
+	overflow:hidden;
+}
+#navu>li{
+	float:left;
+	
+}
+
+#navu>li:hover ul{
+	display:block;
+}
+#searchform{
+	position:absolute;
+	top:0.7em;
+	right:4em;
+	/* background-color:#807f7b; */
+	/* background-color:#929c9b; */
+}
+#s{
+	width:8em;
+	outline:0px;
+		background-color:#EFF3F6;/* 背景色透明 */
+ border:0px;       /* 边框取消 */
+	 /* color:#dee3e2;  */
+ color:#F51D34;	 
+	 font-style:;
+	font-variant:;
+	font-weight:bold;
+	font-size:19px;
+			height:2em;
+			line-height:2em;
+			border:1px solid #F51D34;
+			border-radius:4px;
+}
+#s:hover{
+		/* background-color:#383a33; *//* 背景色透明 */
+		background-color:#fdfdfd;
+}
+#searchsubmit{
+/* 	 background-color:#383834; */  /* 背景色透明 */
+	 background-color:#EFF3F6;  /* 背景色透明 */
+ border:0px;       /* 边框取消 */
+	 /* color:#dee3e2;    */
+	  color:#F51D34;
+	 font-style:;
+	font-variant:;
+	font-weight:bold;
+	font-size:19px;
+			height:2em;
+			line-height:2em;
+			padding:0 1em 0 1em;
+			border:1px solid #F51D34;
+			border-radius:4px;
+}
+#searchsubmit:hover{
+/* 	 background-color:#26221c;  */ /* 背景色透明 */
+background-color:#fdfdfd;
+	font-weight:;
+		cursor:pointer;
+	cursor:hand;
+}
+
+#content{
+	clear:left;
+	float:left;
+	width:78%;
+	/* background-color:#659c96; */
+	/* background-color:#dee2e3; */
+	/* background-color:#c5a9a1; */
+	/* background-color:#d71020;  */
+	/* background-color:#fb2b4b;  */
+	/* background-color:#ccb3ac; */
+/* background-color:#EFF3F6;  */
+background-color:#e3dad3;	
+
+}
+#sidebar{
+	float:right;
+	width:20%;
+}
+
+#dpage,#dtag,#blogrollnav,#dmeta,#dcomments,#drecent{
+	margin-top:10px;
+	background-color:#EFF3F6;	
+}
+#dpage a,#dtag a,#blogrollnav a,#dmeta a,#drecent a{
+	display:inline-block;
+	padding:0.2em;
+	margin:0.2em;
+	padding-left:0.8em;
+	margin-left:0.8em;
+	  color:#F51D34;
+	 font-style:;
+	font-variant:;
+	font-weight:;
+	font-size:13px;
+}
+.dcommenter{
+	  color:#F51D34;
+	 font-style:;
+	font-variant:;
+	font-weight:;
+	font-size:13px;
+	width:80%;
+	margin:1em auto;
+/* word-wrap:break-word; */
+word-break:break-all;
+}
+
+#dcomments a{
+	/* color:#626560; */
+	/* color:#7a5e62; */
+	color:#7b8583;
+}
+#dtag li,#blogrollnav ul,#dmeta ul,#dcomments ul,#drecent ul{
+	display:inline-block;
+	margin:0px 0px 0.7em 0px;
+	width:95%;
+}
+
+
+#sidebar h2{
+	padding:0.5em;
+	margin:0.5em;
+	border-bottom:1px solid #F51D34;
+	background-color:#EFF3F6;	
+	
+	  color:#F51D34;
+	 font-style:;
+	font-variant:;
+	font-weight:;
+	font-size:15px;
+}
+/* #sidebar>ul ul{
+	background-color:#699C93;
+} */
+#sidebar a:hover{
+	color:#699C93;
+}
+#dtag a{
+	color:#fff;
+	display:inline-block;
+	background-color:#15A287;
+	opacity:0.7;
+	padding:0.8em;
+}
+#dtag a:hover{
+	color:#fff;
+	opacity:1;
+}
+#wrap{
+	width:85%;
+	margin:0 auto;
+}
+#footer{
+	text-align:center;
+	width:100%;
+	overflow:hidden;
+	height:4em;
+	line-height:4em;
+	
+	/* background-color:#915232;	 */
+	background-color:#699C93;
+	 font-style:;
+	font-variant:;
+	font-weight:;
+	font-size:19px;
+}
+#footer p{
+	/* color:#7b5c68; */
+	color:#422725;
+}
+#footer a{
+	/* color:#7b5c68; */
+	color:#b00e1a;
+}
+.children{
+	display:none;
+	position:absolute;
+	z-index:10;
+	/* background-color:#797d7b; */
+
+}
+.cat-item{
+	background-color:#915232; 
+ /* background-color:#c2101c;   */
+	text-align:center;
+
+}
+.cat-item:hover{
+	/* background-color:#bc7d75; */
+	background-color:#8c8281;
+}
+.cat-item a{
+	 /* color:#bdc7c6;  */
+	 color:#dee3e2;  
+	 font-style:;
+	font-variant:;
+	font-weight:;
+	font-size:19px;
+			height:3em;
+			line-height:3em;
+			padding:0 2em 0 2em;
+	/* color:#b0aca8; */
+}
+.post{
+	margin: 10px 10px 10px 10px;
+	background-color:#EFF3F6; 
+	position:relative;
+}
+.post h2 a{
+	 color:#f51d34;  
+	 font-style:;
+	font-variant:;
+	font-weight:;
+	font-size:18px;
+			height:3em;
+			line-height:3em;
+			padding:0 2em 0 2em;
+}
+.post h2 a:hover{
+	 color:#f51d34;  
+	 font-style:;
+	font-variant:;
+	font-weight:bold;
+	font-size:18px;
+			height:3em;
+			line-height:3em;
+			padding:0 2em 0 2em;
+}
+.apostwrap{
+}
+.posttags{
+	display:inline-block;
+}
+.posttags a{
+	display:inline-block;
+	color:#fff;
+	background-color:#15A287;
+	opacity:0.7;
+	padding:0.3em;
+	margin:0.2em;
+	margin-left:2.3em;
+}
+.entry{
+	display:inline-block;
+	text-indent:2em;
+	 color:#7b8583;  
+	 font-style:;
+	font-variant:;
+	font-weight:;
+	font-size:15px;
+			line-height:1.7em;
+			padding:0 2em 0 2em;
+}
+blockquote, pre {
+
+white-space: pre-wrap;       /* css-3 */
+white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+white-space: -pre-wrap;      /* Opera 4-6 */
+white-space: -o-pre-wrap;    /* Opera 7 */
+word-wrap:break-word;    /* ie */
+word-break:break-all;
+overflow:hidden;
+}
+.after-post{
+			line-height:1.7em;
+			/* padding:1em 2em 1em 2em; */
+			/* position:absolute; */
+			/* right:2em; */
+			text-align:right;
+			margin-right:4em;
+}
+.post-data{
+	display:inline-block;
+}
+.post-data span,.post-categories a,.post-hot{
+	 font-style:;
+	font-variant:;
+	font-weight:;
+	font-size:15px;
+	color:#b0aca8;
+}
+.post-comments,.post-meta a{
+		 font-style:;
+	font-variant:;
+	font-weight:;
+	font-size:15px;
+	color:#f51d34;
+}
+
+.post-categories{
+	display:inline-block;
+}
+.post-categories li{
+	display:inline-block;
+}
+.post-meta{
+	display:inline-block;
+}
+.pagenav{
+	display:inline-block;
+	margin:-0.5em 0px 0.7em 0px;
+	width:95%;
+}
+.ssaying{
+	  color:#F51D34;
+	 font-style:;
+	font-variant:;
+	font-weight:;
+	font-size:13px;
+	display:inline-block;
+	width:4em;
+}
+.post-cat{
+	position:absolute;
+	right:3em;
+	top:0.7em;
+	
+}
+.post-cat a{
+	
+	display:inline-block;
+	color:#fff;
+	background-color:#FF6600;
+	opacity:0.7;
+	padding:0.3em;
+	margin:0.2em;
+}
+
+
+
+.comment-author-link{
+	color:#fff;
+	padding:0.5em;
+	background-color:#b37333;
+	border-radius:5px;
+	display:inline-block;
+}
+.comment-author-link a{
+	color:#fff !important;
+	display:inline-block;
+	background-color:#b37333 !important;
+}
+.comment-author-link a:hover{
+	opacity:0.7;
+}
+.dcommenter a:last-child{
+		color:#fff !important;
+	display:inline-block;
+	padding:0.5em;
+	background-color:#D9534F;
+	border-radius:5px;
+}
+.comment-author-link+a{
+		color:#fff !important;
+	display:inline-block;
+	padding:0.5em;
+	background-color:#b433ff;
+	border-radius:5px;
+}
+.recentcomments{
+	border-bottom:0.5em solid #4a4a4a;
+}
+
+
+.navigation{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+.navigation a{
+	color:#e3dad3;
+	font-size:2em;
+	padding:0.3em 1em;
+	display:inline-block;
+	background-color:#b0aca8;
+	border-radius:5px;
+}
+.navigation a:hover{
+	opacity:0.7;
+}
+
+
